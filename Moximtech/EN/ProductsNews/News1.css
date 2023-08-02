@@ -1,0 +1,39 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.content .p1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content .p2{
+    font-size: 20px;
+    color: #828282;
+}
+
+.content .p2 .b1{
+    color: #828282;
+    text-decoration: none;
+}
+
+.content .p2 .b1:hover{
+    color: #0000FF;
+}
+
+.content .p2 .b2{
+    color: #0000FF;
+}
+
+.content .p2 .b3{
+    color: #000000;
+}
+
+.content .p3{
+    text-align: center;
+}

@@ -1,0 +1,97 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content1{
+    background-image: url("../Picture/test4.png");
+    background-size: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: "Comic Sans MS";
+}
+
+.content2{
+    background-image: url("../Picture/test8.png");
+    background-size: cover;
+}
+
+.content2 .input{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 60%;
+    float: left;
+}
+
+.content2 .data{
+    background-color: #fafafa;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 8%;
+    width: 30%;
+    font-size: 20px;
+    border: 3px solid #000000;
+    float: right;
+}
+
+textarea{
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 20%;
+    height: 70px;
+    width: 70%;
+    padding-left: 1%;
+    font-size: 25px;
+    line-height: 70px;
+    border: 2px solid #000000;
+    resize: none;
+    float: left;
+}
+
+.content2 .input .message{
+    height: 200px;
+}
+
+button{
+    background-color: #b959ff;
+    border-radius: 40px 40px 40px 40px;
+    margin-left: 20%;
+    height: 60px;
+    width: 20%;
+    color: #fafafa;
+    font-size: 20px;
+    float: left;
+
+}
+
+button:hover{
+    background-color: #000000;
+}
+
+.content2 .data .word{
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+.content2 .data .title1{
+    font-size: 30px;
+    color: #b959ff;
+}
+
+.content2 .data .title2{
+    font-size: 25px;
+    color: #00a8a8;
+}
+
+.content2 .data a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.content2 .data a:hover{
+    color: #0000D6;
+}

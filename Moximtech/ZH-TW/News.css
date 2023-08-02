@@ -1,0 +1,40 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+}
+
+.content1{
+    background-color: #fafafa;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 30%;
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+}
+
+.content1 img{
+    display:block; 
+    margin:auto;
+    width: 90%;
+}
+
+.content1 a{
+    font-family: "Comic Sans MS";
+    text-decoration: none;
+    color: #000000;
+}
+
+.content1 .p1{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.content1 .p1:hover{
+    color: #0000FF;
+}
+
+.content1 .p2{
+    font-size: 15px;
+}

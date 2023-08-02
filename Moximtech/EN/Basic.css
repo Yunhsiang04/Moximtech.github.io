@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.guide{
+    background-color: #b959ff;
+}
+
+.guide .logo img{
+    width: 30%;
+    float: left;
+}
+
+.guide .link{
+    margin-top: 2%;
+    width: 50%;
+    font-size: 23px;
+    font-weight: bold;
+    float: right;
+}
+
+.guide .link a{
+    padding-left: 2%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.guide .link a:hover{
+    color: #fafafa;
+}
+
+.copyright{
+    background-color: #b959ff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
