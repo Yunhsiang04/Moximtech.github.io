@@ -1,3 +1,8 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
 .content1{
     display: flex;
     background-color: #eeeeee;
@@ -34,7 +39,7 @@
 .content1 .txt .three{
     font-size: 25px;
     font-weight: bold;
-    color: brown;
+    color: #800000;
 }
 
 .content1 .txt .four{
@@ -59,7 +64,84 @@ button:hover{
     border: 3px solid #000000;
 }
 
-.content2 .ContactInfo{
+.content2{
+    background-color: #ffffff;
+}
+
+.content2 .word1{
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 30%;
+    float: left;
+}
+
+.content2 .word1 .p1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.content2 .word1 .p2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #800000;
+}
+
+.content2 .word2{
+    width: 60%;
+    height: 400px;
+    float: right;
+}
+
+.content2 .word2 .word2-1{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.content2 .word2 .word2-2{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.content2 .word2 .word2-3{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.content2 .word2 .word2-4{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.content2 .word2 .p1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.content2 .word2 .p2{
+    font-size: 20px;
+    color: #828282;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content4 .ContactInfo{
     background-color: #e8e8e8;
     display: flex;
     align-content: center;
@@ -67,7 +149,7 @@ button:hover{
     height: 300px;
 }
 
-.content2 .ContactInfo .name{
+.content4 .ContactInfo .name{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -78,7 +160,7 @@ button:hover{
     float: left;
 }
 
-.content2 .ContactInfo .name p{
+.content4 .ContactInfo .name p{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -87,21 +169,21 @@ button:hover{
     font-size: 140%;
 }
 
-.content2 .ContactInfo .name img{
+.content4 .ContactInfo .name img{
     display:block; 
     margin:auto;
     width: 70%;
 }
 
-.content2 .ContactInfo .data{
+.content4 .ContactInfo .data{
     background-color: #fafafa;
     border-radius: 20px 20px 20px 20px;
-    width: 25%;
+    width: 30%;
     height: 80%;
     float: right;
 }
 
-.content2 .ContactInfo .data .title1{
+.content4 .ContactInfo .data .title1{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -110,21 +192,21 @@ button:hover{
     font-size: 30px;
 }
 
-.content2 .ContactInfo .data img{
+.content4 .ContactInfo .data img{
     height: 20px;
-    margin-left: 5%;
+    margin-left: 20%;
     float: left;
 }
 
-.content2 .ContactInfo .data .title2{
+.content4 .ContactInfo .data .title2{
     font-size: 20px;
 }
 
-.content2 .ContactInfo .data a{
+.content4 .ContactInfo .data a{
     color: #000000;
     text-decoration: none;
 }
 
-.content2 .ContactInfo .data a:hover{
+.content4 .ContactInfo .data a:hover{
     color: #0000D6;
 }
