@@ -30,7 +30,7 @@ body{
     align-items: center;
     height: 100%;
     width: 50%;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
 }
 .guide .link a{
@@ -62,7 +62,7 @@ ul { /* 取消ul預設的內縮及樣式 */
 }
 
 ul.drop-down-menu {
-    font-size: 13px;
+    font-size: 20px;
 }
 
 ul.drop-down-menu a {

@@ -4,8 +4,10 @@
 }
 
 .content1{
+    background-image: url("../Picture/test4.png");
+    background-size: 100%;
     display: flex;
-    background-color: #eeeeee;
+    height: 500px;
 }
 
 .content1 .product{
@@ -15,11 +17,12 @@
 }
 
 .content1 img{
-    width: 80%;
+    max-width: 100%;
     float: left;
 }
 
 .content1 .txt{
+    height: 100%;
     width: 50%;
     float: right;
 }
@@ -44,7 +47,7 @@
 
 .content1 .txt .four{
     font-size: 20px;
-    color: #ababab;
+    color: #828282;
 }
 
 button{
@@ -65,7 +68,7 @@ button:hover{
 }
 
 .content2{
-    background-color: #ffffff;
+    background-color: #eeeeee;
 }
 
 .content2 .word1{
@@ -128,10 +131,53 @@ button:hover{
     color: #828282;
 }
 
+.content3{
+    height: 800px;
+}
 
+.content3 img{
+    width: 100%;
+}
 
+.content3 .p1{
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
 
+.content3 .p2{
+    color: #800000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
 
+.content3 ol{
+    color: #828282;
+    font-size: 20px;
+}
+
+.content3 .word1-1{
+    margin-left: 10%;
+    width: 20%;
+    float: left;
+}
+
+.content3 .word1-2{
+    width: 20%;
+    float: left;
+}
+
+.content3 .word1-3{
+    width: 20%;
+    float: left;
+}
+
+.content3 .word1-4{
+    width: 20%;
+    float: left;
+}
 
 
 
