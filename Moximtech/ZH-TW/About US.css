@@ -54,12 +54,34 @@
     float: right;
 }
 
+
+
 .content2 .word .p1{
     margin-left: 10%;
     font-size: 30px;
     color: #800000;
     font-weight: bold;
 }
+
+/*@media screen and (max-width:1150px){
+    .content2 .word .p2{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 15px;
+        text-align: justify ;
+        color: #828282;
+    }
+}
+
+@media screen and (min-width:1150px){
+    .content2 .word .p2{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 22px;
+        text-align: justify ;
+        color: #828282;
+    }
+}*/
 
 .content2 .word .p2{
     margin-left: 10%;
