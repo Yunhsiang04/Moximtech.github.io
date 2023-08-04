@@ -89,6 +89,7 @@ button:hover{
 
 .content2 .word2{
     width: 60%;
+    height: 400px;
     float: right;
 }
 
@@ -124,7 +125,6 @@ button:hover{
 
 .content2 .word2 .p2{
     font-size: 20px;
-    font-weight: bold;
     color: #828282;
 }
 
@@ -178,7 +178,7 @@ button:hover{
 .content4 .ContactInfo .data{
     background-color: #fafafa;
     border-radius: 20px 20px 20px 20px;
-    width: 45%;
+    width: 30%;
     height: 80%;
     float: right;
 }
@@ -194,7 +194,7 @@ button:hover{
 
 .content4 .ContactInfo .data img{
     height: 20px;
-    margin-left: 5%;
+    margin-left: 20%;
     float: left;
 }
 
