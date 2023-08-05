@@ -69,7 +69,7 @@ button{
 }
 
 button:hover{
-    background-color: #000000;
+    border: 3px solid #000000;
 }
 
 .content2 .data .word{

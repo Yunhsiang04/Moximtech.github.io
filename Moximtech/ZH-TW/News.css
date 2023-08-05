@@ -14,6 +14,10 @@
     float: left;
 }
 
+.content1:hover{
+    border: 3px solid #000000;
+}
+
 .content1 img{
     display:block; 
     margin:auto;

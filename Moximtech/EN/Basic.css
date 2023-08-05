@@ -8,12 +8,13 @@ body{
     flex-direction: column;
 }
 
-
 .guide{
     height: 100px;
 }
 
 .guide .logo{
+    display: flex;
+    align-items: center;
     height: 100%;
     width: 50%;
     float: left;
@@ -21,7 +22,6 @@ body{
 
 .guide .logo img{
     margin-left: 15%;
-    height: 100%;
     width: 70%;
 }
 

@@ -47,7 +47,7 @@
 
 .content1 .txt .four{
     font-size: 20px;
-    color: #828282;
+    color: #696969;
 }
 
 button{
@@ -90,6 +90,17 @@ button:hover{
     color: #800000;
 }
 
+.content2 .word2 .p1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.content2 .word2 .p2{
+    font-size: 20px;
+    color: #696969;
+}
+
 .content2 .word2{
     width: 60%;
     height: 400px;
@@ -120,17 +131,6 @@ button:hover{
     float: left;
 }
 
-.content2 .word2 .p1{
-    font-size: 30px;
-    font-weight: bold;
-    color: #000000;
-}
-
-.content2 .word2 .p2{
-    font-size: 20px;
-    color: #828282;
-}
-
 .content3{
     height: 800px;
 }
@@ -154,7 +154,7 @@ button:hover{
 }
 
 .content3 ol{
-    color: #828282;
+    color: #696969;
     font-size: 20px;
 }
 
@@ -178,14 +178,6 @@ button:hover{
     width: 20%;
     float: left;
 }
-
-
-
-
-
-
-
-
 
 .content4 .ContactInfo{
     background-color: #e8e8e8;
