@@ -56,22 +56,6 @@ textarea{
     height: 200px;
 }
 
-button{
-    background-color: #b959ff;
-    border-radius: 40px 40px 40px 40px;
-    margin-left: 20%;
-    height: 60px;
-    width: 20%;
-    color: #fafafa;
-    font-size: 20px;
-    float: left;
-
-}
-
-button:hover{
-    border: 3px solid #000000;
-}
-
 .content2 .data .word{
     margin-left: 1%;
     margin-bottom: 3%;
@@ -95,3 +79,45 @@ button:hover{
 .content2 .data a:hover{
     color: #0000D6;
 }
+
+/* 样式表开始 */
+.color-transition-button {
+    /* 保持原始按钮的样式 */
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #b959ff;
+    color: #fafafa;
+    border: none;
+    margin-left: 20%;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden; /* 为了裁剪伪元素 */
+}
+
+.button-text {
+    /* 设置按钮上文字的样式 */
+    position: relative;
+    z-index: 1; /* 将文字置于伪元素之上 */
+}
+
+.fill {
+    /* 用于填充颜色的伪元素 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #000000;
+    transform-origin: left;
+    transition: width 0.5s ease-in-out; /* 宽度变化过渡效果，持续0.3秒，缓入缓出 */
+}
+
+.color-transition-button:hover .fill {
+    /* 当按钮悬停时，伪元素宽度变为100%，实现颜色从左到右填充效果 */
+    width: 100%;
+}
+/* 样式表结束 */
