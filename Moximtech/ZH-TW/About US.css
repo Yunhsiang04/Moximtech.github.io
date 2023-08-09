@@ -31,26 +31,25 @@
 .content2{
     background-image: url("../Picture/test3.png");
     background-size: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .content2 img{
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 15%;
     width: 35%;
-    height: 400px;
     float: left;
 }
 
 .content2 .word{
     background-color: #fafafa;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-right: 14%;
-    width: 35%;
-    height: 400px;
+    width: 40%;
     float: right;
 }
 
@@ -63,26 +62,6 @@
     font-weight: bold;
 }
 
-/*@media screen and (max-width:1150px){
-    .content2 .word .p2{
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 15px;
-        text-align: justify ;
-        color: #828282;
-    }
-}
-
-@media screen and (min-width:1150px){
-    .content2 .word .p2{
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 22px;
-        text-align: justify ;
-        color: #828282;
-    }
-}*/
-
 .content2 .word .p2{
     margin-left: 10%;
     margin-right: 10%;
@@ -93,27 +72,26 @@
 
 .content3{
     background-color: #b959ff;
+    display: flex;
+    align-items: center;
 }
 
 .content3 img{
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-right: 14%;
+    margin-left: 15%;
     width: 35%;
-    height: 400px;
-    float: right;
+    float: left;
 }
 
 .content3 .word{
     background-color: #fafafa;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: 10%;
     width: 40%;
-    height: 400px;
-    float: left;
+    float: right;
 }
 
 .content3 .p1{  
