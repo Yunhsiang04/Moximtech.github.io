@@ -4,25 +4,23 @@ body{
 }
 
 .guide{
-    height: 100px;
+    display: flex;
 }
 
 .guide .logo{
     display: flex;
     align-items: center;
-    height: 100%;
     width: 30%;
     float: left;
 }
 
 .guide .logo img{
-    margin-left: 5%;
+    display:block; 
+    margin:auto;
     width: 90%;
 }
 
 .guide .link{
-    display: flex;
-    height: 100%;
     width: 70%;
     font-size: 20px;
     font-weight: bold;
