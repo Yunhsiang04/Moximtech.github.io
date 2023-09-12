@@ -16,48 +16,64 @@
             </div><div class="link">
                 <ul class="drop-down-menu">
                     <li><a href="index.html">首頁</a>
+                        <!-- <ul>
+                            <li><a href="index.html">首頁</a>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li><a href="Products.html">產品</a>
+                        <!-- <ul>
+                            <li><a href="Products.html">產品</a>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li><a href="News.html">最新消息</a>
+                        <!-- <ul>
+                            <li><a href="News.html">最新消息</a>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li><a href="About US.html">關於我們</a>
+                        <!-- <ul>
+                            <li><a href="About US.html">關於我們</a>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li><a href="Contact US.html">聯絡我們</a>
+                        <!-- <ul>
+                            <li><a href="Contact US.html">聯絡我們</a>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li><img src="../Picture/Search.png" height="20px">
+                        <!-- <ul>
+                            <li><a href="#">Search</a>
+                            </li>
+                        </ul> -->
+                    </li>
+                </ul>
+                <ul class="menu">
+                    <li><img src="../Picture/Menu.png" height=" 20px">
                         <ul>
                             <li><a href="index.html">首頁</a>
                             </li>
-                        </ul>
-                    </li>
-                    <li><a href="Products.html">產品</a>
-                        <ul>
                             <li><a href="Products.html">產品</a>
                             </li>
-                        </ul>
-                    </li>
-                    <li><a href="News.html">最新消息</a>
-                        <ul>
                             <li><a href="News.html">最新消息</a>
                             </li>
-                        </ul>
-                    </li>
-                    <li><a href="About US.html">關於茂鑫</a>
-                        <ul>
-                            <li><a href="About US.html">關於茂鑫</a>
+                            <li><a href="About US.html">關於我們</a>
                             </li>
-                        </ul>
-                    </li>
-                    <li><a href="Contact US.html">聯絡我們</a>
-                        <ul>
                             <li><a href="Contact US.html">聯絡我們</a>
                             </li>
                         </ul>
                     </li>
-                    <li><img src="../Picture/Search.png" height="20px">
-                        <ul>
-                            <li><a href="#">Search</a>
-                            </li>
-                        </ul>
-                    </li>
+                </ul>
+                <ul class="language">
                     <li><img src="../Picture/language.png" height="20px">
-                        <ul>
-                            <li><a href="../EN/Contact US.html">English</a>
-                            </li>
-                            <li><a href="../ZH-TW/Contact US.html">繁中</a>
-                            </li>
-                        </ul>
+                    </li>
+                    <li><a href="../EN/Contact US.html">English</a>
+                    </li>
+                    <li><a href="../ZH-TW/Contact US.html">繁中</a>
                     </li>
                 </ul>
             </div>
@@ -70,7 +86,18 @@
             </div>
             <div class="content2">
                 <div class="input">
-                    <textarea class="inputdata" placeholder="公司名稱:" id="companyname"></textarea>
+                    <input placeholder="公司名稱:"  id="companyname">
+                    <input placeholder="聯絡姓名:"     id="username">
+                    <input placeholder="聯絡信箱:" id="emailText">
+                    <input placeholder="主旨:"         id="subject">
+                    <textarea placeholder="詢問內容:"    id="body"></textarea>
+                    <form action="Contact US.php" method="post">
+                        <button class="color-transition-button">
+                            <span class="button-text">SEND MESSAGE</span>
+                            <span class="fill"></span>
+                        </button>
+                    </form>
+                    <!-- <textarea class="inputdata" placeholder="公司名稱:" id="companyname"></textarea>
                     <textarea class="inputdata" placeholder="聯絡姓名:" id="username"></textarea>
                     <textarea class="inputdata" placeholder="聯絡信箱:" id="emailText"></textarea>
                     <textarea class="inputdata" placeholder="主旨:" id="subject"></textarea>
@@ -79,7 +106,7 @@
                         <span class="button-text">確認提交</span>
                         <span class="fill"></span>
                     </button>
-                    <a id="mailTo"></a>
+                    <a id="mailTo"></a> -->
                 </div>
                 <div class="data">
                     <div class="word">
