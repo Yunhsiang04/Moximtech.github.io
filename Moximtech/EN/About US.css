@@ -37,35 +37,32 @@
 
 .content2 img{
     border-radius: 20px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 15%;
+    margin: 5% 0 5% 15%;
     width: 35%;
     float: left;
 }
 
 .content2 .word{
     background-color: #fafafa;
+    text-align: justify ;
     border-radius: 20px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% 0 5% 1%;
     width: 40%;
     float: right;
 }
 
 .content2 .word .p1{
+    color: #800000;
     margin-left: 10%;
     font-size: 30px;
-    color: #800000;
     font-weight: bold;
 }
 
 .content2 .word .p2{
+    color: #828282;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 22px;
-    text-align: justify ;
-    color: #828282;
 }
 
 .content3{
@@ -76,35 +73,32 @@
 
 .content3 img{
     border-radius: 20px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 15%;
+    margin: 5% 0 5% 15%;
     width: 35%;
     float: left;
 }
 
 .content3 .word{
     background-color: #fafafa;
+    text-align: justify ;
     border-radius: 20px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% 0 5% 1%;
     width: 40%;
     float: right;
 }
 
 .content3 .word .p1{  
+    color: #800000;
     margin-left: 10%;
     font-size: 30px;
-    color: #800000;
     font-weight: bold;
 }
 
 .content3 .word .p2{
+    color: #828282;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 22px;
-    text-align: justify ;
-    color: #828282;
 }
 
 .content4{

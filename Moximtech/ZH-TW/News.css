@@ -15,7 +15,7 @@
 }
 
 .content1:hover{
-    border: 3px solid #000000;
+    outline: 3px solid #000000;
 }
 
 .content1 img{

@@ -15,3 +15,5 @@ btn.addEventListener("click", function(){
     mailTo.href = "mailto:" + to + "?subject=" + subject.value + "&body=" + message;
     mailTo.click();
 })
+
+
