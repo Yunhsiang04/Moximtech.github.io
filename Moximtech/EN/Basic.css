@@ -26,10 +26,14 @@ body{
     font-weight: bold;
 }
 
-ul.drop-down-menu {
+
+ul{
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+ul.drop-down-menu {
     font-size: 20px;
     margin-top: 2%;
     margin-bottom: 2%;  
@@ -116,6 +120,66 @@ ul.language a:hover{
     color: #b959ff;
 }
 
+ul.search {    
+    margin: 2% 0 2% 0;
+    float: right;
+}
+
+ul.search img{
+    margin-top: 9px;
+}
+
+ul.search li {
+    margin: 0 15px 0 15px;
+    float: left;
+    width: 100%;
+}
+
+ul.search a {
+    color: #000000;
+    display: block;
+    text-decoration: none;
+    line-height: 40px;    
+    transition: .5s;
+}
+
+ul.search .word{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 70%;
+    font-size: 20px;
+    margin-left: 15%;
+    padding-left: 1%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+ul.search .word:focus{
+    outline: 3px solid #b959ff;
+}
+
+ul.search > li {
+    float: left;
+}
+
+ul.search ul {
+    position: absolute;
+    left: 0; 
+    width: 100%;
+    background-color: #696969f0;
+}
+
+
+ul.search ul {
+    display: none;
+}
+
+ul.search li:hover > ul {
+    display: block;
+}
+
+
 @media(min-width: 1210px){ 
     ul.menu{
         display: none;
@@ -130,12 +194,6 @@ ul.language a:hover{
 
     ul.menu{
         display: '';
-    }
-
-    ul{
-        margin: 0;
-        padding: 0;
-        list-style: none;
     }
     
     ul.menu {    
