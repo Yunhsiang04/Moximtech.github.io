@@ -75,7 +75,7 @@
                         <ul>
                             <li>
                                 <form action="https://www.google.com/search" method="get" target="_blank">
-                                    <input class="word" type="text" name="q" placeholder="搜尋">
+                                    <input class="word" type="text" name="q" placeholder="搜尋" autocomplete="off">
                                     <input type="image" src="../Picture/Search.png" height="20px">
                                 </form>
                             </li>
@@ -92,11 +92,11 @@
             </div>
             <div class="content2">
                 <div class="input">
-                    <input placeholder="公司名稱:"  id="companyname">
-                    <input placeholder="聯絡姓名:"     id="username">
-                    <input placeholder="聯絡信箱:" id="emailText">
-                    <input placeholder="主旨:"         id="subject">
-                    <textarea placeholder="詢問內容:"    id="body"></textarea>
+                    <input placeholder="公司名稱:" id="companyname" autocomplete="off">
+                    <input placeholder="聯絡姓名:" id="username" autocomplete="off">
+                    <input placeholder="聯絡信箱:" id="emailText" autocomplete="off">
+                    <input placeholder="主旨:" id="subject" autocomplete="off">
+                    <textarea placeholder="詢問內容:" id="body" autocomplete="off"></textarea>
                     <form action="Contact US.php" method="post">
                         <button class="color-transition-button">
                             <span class="button-text">SEND MESSAGE</span>
