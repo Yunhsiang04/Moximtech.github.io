@@ -90,29 +90,19 @@
             <div class="content1">
                 <p class="t">Get In Touch with Us Anytime</p>
             </div>
-            <div class="content2">
-                <div class="input">
-                    <input placeholder="Company Name:"  id="companyname"autocomplete="off">
-                    <input placeholder="Your Name:"     id="username"   autocomplete="off">
-                    <input placeholder="Contact Email:" id="emailText"  autocomplete="off">
-                    <input placeholder="Topic:"         id="subject"    autocomplete="off">
-                    <textarea placeholder="Message:"    id="body"       autocomplete="off"></textarea>
-                    <form action="Contact US.php" method="post">
-                        <button class="color-transition-button">
-                            <span class="button-text">SEND MESSAGE</span>
-                            <span class="fill"></span>
-                        </button>
-                    </form>
-                    <!-- <textarea class="inputdata" placeholder="Company Name:" id="companyname"></textarea>
-                    <textarea class="inputdata" placeholder="Your Name:" id="username"></textarea>
-                    <textarea class="inputdata" placeholder="Contact Email:" id="emailText"></textarea>
-                    <textarea class="inputdata" placeholder="Topic:" id="subject"></textarea>
-                    <textarea class="message" placeholder="Message:" id="body"></textarea>
+            <div class="content2">  
+                <form class="input" action="Contact US.php" method="post" target="_top">
+                    <input type="text" placeholder="Company Name:" name="companyname" autocomplete="off">
+                    <input type="text" placeholder="Your Name:" name="username" autocomplete="off">
+                    <input type="text" placeholder="Contact Email:" name="emailText" autocomplete="off">
+                    <input type="text" placeholder="Topic:" name="subject" autocomplete="off">
+                    <textarea placeholder="Message:" name="body" autocomplete="off"></textarea>
+                    <!-- <input type="submit" value="送出"> -->
                     <button class="color-transition-button">
                         <span class="button-text">SEND MESSAGE</span>
                         <span class="fill"></span>
-                    </button> -->
-                </div>
+                    </button>
+                </form>
                 <div class="data">
                     <div class="word">
                         <p class="title1">Moximtech Technology Co., Ltd.</p>
