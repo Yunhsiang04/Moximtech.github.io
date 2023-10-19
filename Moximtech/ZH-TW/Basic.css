@@ -119,11 +119,11 @@ ul.language a:hover{
 
 ul.search {
     line-height: 110px;
+    margin: 0 15px 0 0;
     float: right;
 }
 
 ul.search li {
-    margin: 0 15px 0 15px;
     float: left;
     width: 100%;
 }
@@ -229,7 +229,7 @@ ul.search li:hover > ul {
     }
     
     ul.menu a:hover::after{
-        width: 100%;
+        width: 95%;
     }
     
     ul.menu li:hover > a { 

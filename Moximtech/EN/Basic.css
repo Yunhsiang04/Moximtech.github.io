@@ -5,25 +5,27 @@ body{
 
 .guide{
     display: flex;
+    height: 100px;
 }
 
 .guide .logo{
     display: flex;
     align-items: center;
-    width: 30%;
-    float: left;
+    width: 400px;
+    margin-right: auto
+}
+
+.guide .link{
+    width: 1000px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: auto;
 }
 
 .guide .logo img{
     display:block; 
-    margin:auto;
+    margin-left: 20px;
     width: 100%;
-}
-
-.guide .link{
-    width: 70%;
-    font-size: 20px;
-    font-weight: bold;
 }
 
 ul{
@@ -119,11 +121,11 @@ ul.language a:hover{
 
 ul.search {
     line-height: 110px;
+    margin: 0 15px 0 0;
     float: right;
 }
 
 ul.search li {
-    margin: 0 15px 0 15px;
     float: left;
     width: 100%;
 }
@@ -229,7 +231,7 @@ ul.search li:hover > ul {
     }
     
     ul.menu a:hover::after{
-        width: 100%;
+        width: 95%;
     }
     
     ul.menu li:hover > a { 

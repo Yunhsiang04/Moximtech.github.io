@@ -12,8 +12,8 @@ btn.addEventListener("click", function(){
         message += "Form:" + username.value + '%0A';
         message += "Email:" + emailText.value;
 
-    mailTo.href = "mailto:" + to + "?subject=" + subject.value + "&body=" + message;
-    mailTo.click();
+    mail = "mailto:" + to + "?subject=" + subject.value + "&body=" + message;
+    mail.click();
 })
 
 
