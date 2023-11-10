@@ -15,5 +15,3 @@
     mail($to, $subject, $messageBody);
 }
 ?>
-
-
