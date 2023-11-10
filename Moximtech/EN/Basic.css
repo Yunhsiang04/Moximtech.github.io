@@ -55,7 +55,7 @@ div.drop-down-menu {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 60px;
 }
 
 .language-btn{
@@ -63,21 +63,20 @@ div.drop-down-menu {
     background-color: transparent;
 }
 
-.language-content {
+.language-content{
     display: none;
     position: absolute;
-    background-color: #fff;
-    text-align: left;
+    background-color: #fff; 
     border-radius: 20px;
     box-shadow: 0 0 40px rgba(186, 89, 255, .2);
     top: 70%;
-  }
+}
 
 .language-content a {
     display: block;
     text-decoration: none;
     font-size: 20px;
-    margin: 0 20px 0 20px;
+    margin: 10px 20px 10px 20px;
     font-weight: bolder;
     color: #000;
 }
@@ -102,6 +101,7 @@ div.drop-down-menu {
 .search-bar{
     height: 32px;
     font-size: 20px;
+    width: 200px;
     border-radius: 30px 0 0 30px;
     padding: 0 0 0 15px;
     border: none;
@@ -140,14 +140,14 @@ div.drop-down-menu {
 }
 
 
-@media(min-width: 1250px){ 
+@media(min-width: 1200px){ 
     div.menu{
         display: none;
     }
 }
 
 
-@media(max-width: 1250px) {
+@media(max-width: 1200px) {
 
     div.drop-down-menu{
         display: none;
