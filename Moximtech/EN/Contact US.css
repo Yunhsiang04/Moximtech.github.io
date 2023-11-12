@@ -1,129 +1,397 @@
-.content{
-    display: flex;
-    flex-direction: column;
-    background-image: url("../Picture/test4.png");
-    background-size: 100%;
+@media(min-width: 1024px){
+    .content{
+        background-image: url("../Picture/test4.png");
+        background-size: cover;
+    }
+    
+    .content1{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: "Comic Sans MS";
+    }
+    
+    .content2{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 0 0 3% 0;
+    }
+
+    .content2 .word1{ 
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    
+    .content2 .word2{
+        background-color: #fafafa;
+        border-radius: 20px;
+        width: 40%;
+        border: 3px solid #000000;
+        padding: 0 0 0 2%;
+    }
+    
+    .content2 input{
+        border-radius: 20px;
+        height: 60px;
+        width: 80%;
+        padding: 0 0 0 1%;
+        margin: 0 0 1% 0;
+        font-size: 25px;
+        border: 3px solid #000;
+    }
+    
+    .content2 textarea{
+        border-radius: 20px;
+        height: 160px;
+        width: 80%;
+        padding: 1% 0 0 1%;
+        margin: 0 0 1% 0;
+        font-size: 25px;
+        border: 3px solid #000;
+        resize: none;
+        float: left;
+    }
+    
+    .content2 input:focus,.content2 textarea:focus{
+        outline: none;
+        border: 3px solid #b959ff;
+    }
+    
+    .content2 .word2 .p1{
+        font-size: 30px;
+        color: #b959ff;
+        font-family: "Comic Sans MS";
+    }
+    
+    .content2 .word2 .p2{
+        font-size: 25px;
+        color: #00a8a8;
+    }
+    
+    .content2 .word2 .p3{
+        font-size: 20px;
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .content2 .word2 a:hover{
+        color: #0000D6;
+    }
+    
+    /* 样式表开始 */
+    .color-transition-button {
+        /* 保持原始按钮的样式 */
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        background-color: #b959ff;
+        color: #fafafa;
+        border: none;
+        font-size: 15px;
+        width: 40%;
+        height: 50px;
+        border-radius: 40px;
+        position: relative;
+        border: 3px solid #000;
+        overflow: hidden; /* 为了裁剪伪元素 */
+    }
+    
+    .button-text {
+        /* 设置按钮上文字的样式 */
+        position: relative;
+        z-index: 1; /* 将文字置于伪元素之上 */
+    }
+    
+    .fill {
+        /* 用于填充颜色的伪元素 */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: #000000;
+        transform-origin: left;
+        transition: width 0.5s ease-in-out; /* 宽度变化过渡效果，持续0.3秒，缓入缓出 */
+    }
+    
+    .color-transition-button:hover .fill {
+        /* 当按钮悬停时，伪元素宽度变为100%，实现颜色从左到右填充效果 */
+        width: 100%;
+    }
+    /* 样式表结束 */
 }
 
-.content1{
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    font-weight: bold;
-    font-family: "Comic Sans MS";
+@media(min-width: 720px) and (max-width: 1024px){
+    .content{
+        background-image: url("../Picture/test4.png");
+        background-size: cover;
+    }
+    
+    .content1{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Comic Sans MS";
+    }
+    
+    .content2{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 0 0 3% 0;
+    }
+
+    .content2 .word1{ 
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    
+    .content2 .word2{
+        background-color: #fafafa;
+        border-radius: 20px;
+        width: 40%;
+        border: 3px solid #000000;
+        padding: 0 0 0 2%;
+    }
+    
+    .content2 input{
+        border-radius: 20px;
+        height: 60px;
+        width: 80%;
+        padding: 0 0 0 1%;
+        margin: 0 0 1% 0;
+        font-size: 20px;
+        border: 3px solid #000;
+    }
+    
+    .content2 textarea{
+        border-radius: 20px;
+        height: 160px;
+        width: 80%;
+        padding: 1% 0 0 1%;
+        margin: 0 0 1% 0;
+        font-size: 20px;
+        border: 3px solid #000;
+        resize: none;
+        float: left;
+    }
+    
+    .content2 input:focus,.content2 textarea:focus{
+        outline: none;
+        border: 3px solid #b959ff;
+    }
+    
+    .content2 .word2 .p1{
+        font-size: 25px;
+        color: #b959ff;
+        font-family: "Comic Sans MS";
+    }
+    
+    .content2 .word2 .p2{
+        font-size: 20px;
+        color: #00a8a8;
+    }
+    
+    .content2 .word2 .p3{
+        font-size: 20px;
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .content2 .word2 a:hover{
+        color: #0000D6;
+    }
+    
+    /* 样式表开始 */
+    .color-transition-button {
+        /* 保持原始按钮的样式 */
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        background-color: #b959ff;
+        color: #fafafa;
+        border: none;
+        font-size: 15px;
+        width: 40%;
+        height: 50px;
+        border-radius: 40px;
+        position: relative;
+        border: 3px solid #000;
+        overflow: hidden; /* 为了裁剪伪元素 */
+    }
+    
+    .button-text {
+        /* 设置按钮上文字的样式 */
+        position: relative;
+        z-index: 1; /* 将文字置于伪元素之上 */
+    }
+    
+    .fill {
+        /* 用于填充颜色的伪元素 */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: #000000;
+        transform-origin: left;
+        transition: width 0.5s ease-in-out; /* 宽度变化过渡效果，持续0.3秒，缓入缓出 */
+    }
+    
+    .color-transition-button:hover .fill {
+        /* 当按钮悬停时，伪元素宽度变为100%，实现颜色从左到右填充效果 */
+        width: 100%;
+    }
+    /* 样式表结束 */
+
 }
 
-.content2 .input{ 
-    margin: 0 0 0 4%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-    width: 50%;
-    float: left;
-}
+@media(max-width: 720px){
+    .content{
+        background-image: url("../Picture/test4.png");
+        background-size: cover;
+    }
+    
+    .content1{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Comic Sans MS";
+    }
+    
+    .content2{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 0 0 3% 0;
+    }
 
-.content2 .data{
-    background-color: #fafafa;
-    border-radius: 20px;
-    margin: 0 5% 5% 0;
-    width: 40%;
-    border: 3px solid #000000;
-    float: right;
-}
+    .content2 .word1{ 
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    
+    .content2 .word2{
+        background-color: #fafafa;
+        border-radius: 20px;
+        width: 80%;
+        border: 3px solid #000000;
+        margin: 1% 0 0 0;
+    }
+    
+    .content2 input{
+        border-radius: 20px;
+        height: 60px;
+        width: 100%;
+        padding: 0 0 0 1%;
+        margin: 0 0 1% 0;
+        font-size: 20px;
+        border: 3px solid #000;
+    }
+    
+    .content2 textarea{
+        border-radius: 20px;
+        height: 160px;
+        width: 100%;
+        padding: 1% 0 0 1%;
+        margin: 0 0 1% 0;
+        font-size: 20px;
+        border: 3px solid #000;
+        resize: none;
+        float: left;
+    }
+    
+    .content2 input:focus,.content2 textarea:focus{
+        outline: none;
+        border: 3px solid #b959ff;
+    }
+    
+    .content2 .word2 .p1{
+        font-size: 25px;
+        text-align: center;
+        color: #b959ff;
+        font-family: "Comic Sans MS";
+    }
+    
+    .content2 .word2 .p2{
+        font-size: 20px;
+        color: #00a8a8;
+    }
+    
+    .content2 .word2 .p3{
+        font-size: 18px;
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .content2 .word2 a:hover{
+        color: #0000D6;
+    }
+    
+    /* 样式表开始 */
+    .color-transition-button {
+        /* 保持原始按钮的样式 */
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        background-color: #b959ff;
+        color: #fafafa;
+        border: none;
+        font-size: 15px;
+        width: 60%;
+        height: 50px;
+        border-radius: 40px;
+        position: relative;
+        border: 3px solid #000;
+        overflow: hidden; /* 为了裁剪伪元素 */
+    }
+    
+    .button-text {
+        /* 设置按钮上文字的样式 */
+        position: relative;
+        z-index: 1; /* 将文字置于伪元素之上 */
+    }
+    
+    .fill {
+        /* 用于填充颜色的伪元素 */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: #000000;
+        transform-origin: left;
+        transition: width 0.5s ease-in-out; /* 宽度变化过渡效果，持续0.3秒，缓入缓出 */
+    }
+    
+    .color-transition-button:hover .fill {
+        /* 当按钮悬停时，伪元素宽度变为100%，实现颜色从左到右填充效果 */
+        width: 100%;
+    }
+    /* 样式表结束 */
 
-.content2 input{
-    border-radius: 20px 20px 20px 20px;
-    height: 60px;
-    width: 80%;
-    padding: 0 0 0 1%;
-    margin: 0 0 1% 0;
-    font-size: 25px;
-    border: 3px solid #000;
-}
 
-.content2 textarea{
-    border-radius: 20px 20px 20px 20px;
-    height: 160px;
-    width: 80%;
-    padding: 1% 0 0 1%;
-    margin: 0 0 1% 0;
-    font-size: 25px;
-    border: 3px solid #000;
-    resize: none;
-    float: left;
 }
-
-.content2 input:focus,.content2 textarea:focus{
-    outline: none;
-    border: 3px solid #b959ff;
-}
-
-.content2 .data .word{
-    margin: 0 0 3% 4%;
-}
-
-.content2 .data .p1{
-    font-size: 30px;
-    color: #b959ff;
-    font-family: "Comic Sans MS";
-}
-
-.content2 .data .p2{
-    font-size: 25px;
-    color: #00a8a8;
-}
-
-.content2 .data .p3{
-    font-size: 20px;
-    color: #000;
-    text-decoration: none;
-}
-
-.content2 .data a:hover{
-    color: #0000D6;
-}
-
-/* 样式表开始 */
-.color-transition-button {
-    /* 保持原始按钮的样式 */
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    background-color: #b959ff;
-    color: #fafafa;
-    border: none;
-    font-size: 15px;
-    width: 20%;
-    height: 50px;
-    border-radius: 40px;
-    position: relative;
-    border: 3px solid #000;
-    overflow: hidden; /* 为了裁剪伪元素 */
-}
-
-.button-text {
-    /* 设置按钮上文字的样式 */
-    position: relative;
-    z-index: 1; /* 将文字置于伪元素之上 */
-}
-
-.fill {
-    /* 用于填充颜色的伪元素 */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #000000;
-    transform-origin: left;
-    transition: width 0.5s ease-in-out; /* 宽度变化过渡效果，持续0.3秒，缓入缓出 */
-}
-
-.color-transition-button:hover .fill {
-    /* 当按钮悬停时，伪元素宽度变为100%，实现颜色从左到右填充效果 */
-    width: 100%;
-}
-/* 样式表结束 */
