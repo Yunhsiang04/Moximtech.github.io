@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
         <meta charset="UTF-8"></meat>
         <title>Moximtech</title>
         <link rel="shortcut icon" href="../Picture/Moximtech_ico.ico"/>
         <link rel="stylesheet" href="Basic.css"/>
         <link rel="stylesheet" href="index.css"/>
+        <script src="Basic.js"></script>
     </head>
 
     <body>
@@ -13,89 +15,54 @@
         <div class="guide">
             <div class="logo">
                 <a href="index.html"><img src="../Picture/Moximtech_Logo.png"></a>
-            </div><div class="link">
-                <ul class="drop-down-menu">
-                    <li><a href="index.html">首頁</a>
-                        <!-- <ul>
-                            <li><a href="index.html">首頁</a>
-                            </li>
-                        </ul> -->
-                    </li>
-                    <li><a href="Products.html">產品</a>
-                        <!-- <ul>
-                            <li><a href="Products.html">產品</a>
-                            </li>
-                        </ul> -->
-                    </li>
-                    <li><a href="News.html">最新消息</a>
-                        <!-- <ul>
-                            <li><a href="News.html">最新消息</a>
-                            </li>
-                        </ul> -->
-                    </li>
-                    <li><a href="About US.html">關於我們</a>
-                        <!-- <ul>
-                            <li><a href="About US.html">關於我們</a>
-                            </li>
-                        </ul> -->
-                    </li>
-                    <li><a href="Contact US.html">聯絡我們</a>
-                        <!-- <ul>
-                            <li><a href="Contact US.html">聯絡我們</a>
-                            </li>
-                        </ul> -->
-                    </li>
-                </ul>
-                <ul class="menu">
-                    <li><img src="../Picture/Menu.png" height=" 20px">
-                        <ul>
-                            <li><a href="index.html">首頁</a>
-                            </li>
-                            <li><a href="Products.html">產品</a>
-                            </li>
-                            <li><a href="News.html">最新消息</a>
-                            </li>
-                            <li><a href="About US.html">關於我們</a>
-                            </li>
-                            <li><a href="Contact US.html">聯絡我們</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="language">
-                    <li><img src="../Picture/language.png" height="20px">
-                    </li>
-                    <li><a href="../EN/index.html">English</a>
-                    </li>
-                    <li><a href="../ZH-TW/index.html">繁中</a>
-                    </li>
-                </ul>
-                <ul class="search">
-                    <li><img src="../Picture/Search.png" height="20px" >
-                        <ul>
-                            <li>
-                                <form action="https://www.google.com/search" method="get" target="_blank">
-                                    <input class="word" type="text" name="q" placeholder="搜尋" autocomplete="off">
-                                    <input type="image" src="../Picture/Search.png" height="20px">
-                                </form>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+            </div>
+            <div class="link">
+                <div class="drop-down-menu">
+                    <a href="index.html">首頁</a>
+                    <a href="Products.html">產品</a>
+                    <a href="News.html">最新消息</a>
+                    <a href="About US.html">關於我們</a>
+                    <a href="Contact US.html">聯絡我們</a>
+                </div>
+                <div class="search">
+                    <form action="https://www.google.com/search" method="get" target="_blank">
+                        <input class="search-bar" type="text" name="q" placeholder="Search" autocomplete="off">
+                        <button class="search-btn"><img src="../Picture/Search.png" height="20px"></button>
+                    </form>
+                </div>
+                <div class="language" onclick="languagebtn()">
+                    <button class="language-btn"><img src="../Picture/language.png" height="20px">
+                    </button>
+                    <div class="language-content">
+                        <a href="../EN/index.html">English</a>
+                        <a href="../ZH-TW/index.html">繁中</a>
+                    </div>
+                </div>
+                <div class="menu" onclick="menubtn()">
+                    <button class="menu-btn"><img src="../Picture/Menu.png" height=" 20px">
+                    </button>
+                    <div class="menu-content">
+                        <a href="index.html">首頁</a>
+                        <a href="Products.html">產品</a>
+                        <a href="News.html">最新消息</a>
+                        <a href="About US.html">關於我們</a>
+                        <a href="Contact US.html">聯絡我們</a>
+                    </div>
+                </div>
             </div>
         </div>
 
         <!--內文-->
         <div class="content">
             <div class="content1">
-                <div class="product">
+                <div class="word1">
                     <img src="../Picture/medical-panel-pc-omnimpc-241.png">
                 </div>
-                <div class="txt">
-                    <p class="one">專業 | 創新 | 熱情</p>
-                    <p class="two">茂鑫智能科技股份有限公司</p>
-                    <p class="three">嵌入式系統領域專家</p>
-                    <p class="four">Moximtech是由Panel PC / POS PC / Box PC設計和製造方面20多年經驗的IPC專業人士組成。我們始終在專注於研究和開發多元化創新應用市場的尖端技術。
+                <div class="word2">
+                    <p class="p1">專業 | 創新 | 熱情</p>
+                    <p class="p2">茂鑫智能科技股份有限公司</p>
+                    <p class="p3">嵌入式系統領域專家</p>
+                    <p class="p4">Moximtech是由Panel PC / POS PC / Box PC設計和製造方面20多年經驗的IPC專業人士組成。我們始終在專注於研究和開發多元化創新應用市場的尖端技術。
                         <br><br>
                         Moximtech能夠整合完整的供應鏈，結合以客戶為導向的產品理念，幫助客戶提升市場競爭力，創造雙贏。
                     </p>
@@ -117,56 +84,56 @@
                         <p class="p1">歡迎OEM/ODM/EMS</p>
                         <p class="p2">專門的團隊和固定的聯繫窗口，以實現定制化和滿意度。</p>
                     </div>
-                    <div class="word2-2">
+                    <div class="word2-1">
                         <p class="p1">整體解決方案</p>
                         <p class="p2">產品規劃、設計、驗證、製造、質量控制、維護。</p>
                     </div>
-                    <div class="word2-3">
+                    <div class="word2-1">
                         <p class="p1">上市時間</p>
                         <p class="p2">快速回复、靈活響應，快速滿足市場需求。</p>
                     </div>
-                    <div class="word2-4">
+                    <div class="word2-1">
                         <p class="p1">總擁有成本競爭力</p>
                         <p class="p2">對材料、設計、生產、維護和維修等各個方面進行深入考慮。</p>
                     </div>
                 </div>
             </div>
             <div class="content3">
-                <div class="title1">
-                    <p class="p1">特色產品</p>
-                </div>
                 <div class="word1">
-                    <div class="word1-1">
+                    <p>特色產品</p>
+                </div>
+                <div class="word2">
+                    <div class="word2-1">
                         <img src="../Picture/medical-panel-pc-omnimpc-241.png">
-                        <p class="p2">OmniMPC-241</p>
-                        <ol>
+                        <p class="p1">OmniMPC-241</p>
+                        <ol class="p2">
                             <li>搭載 Intel® 第 11 代 Core™ i5-1135G7 CPU</li>
                             <li>24吋醫療級平板電腦</li>
                             <li>無風扇，厚度僅44毫米</li>
                         </ol>
                     </div>
-                    <div class="word1-2">
+                    <div class="word2-1">
                         <img src="../Picture/WBOX-35105.png">
-                        <p class="p2">WBOX-35105</p>
-                        <ol>
+                        <p class="p1">WBOX-35105</p>
+                        <ol class="p2">
                             <li>搭載 Intel® 第 10 代 Core™ i5-10210U CPU</li>
                             <li>無風扇工控機</li>
                             <li>迷你尺寸設計 (130 X 125 X 55 mm)</li>
                         </ol>
                     </div>
-                    <div class="word1-3">
+                    <div class="word2-1">
                         <img src="../Picture/WBOX-3701.png">
-                        <p class="p2">WBOX-3701</p>
-                        <ol>
+                        <p class="p1">WBOX-3701</p>
+                        <ol class="p2">
                             <li>搭載 Intel® 第 7 代 Celeron® J3355 CPU</li>
                             <li>無風扇工控機</li>
                             <li>DIN導軌安裝</li>
                         </ol>
                     </div>
-                    <div class="word1-4">
+                    <div class="word2-1">
                         <img src="../Picture/WBOX-48111.png">
-                        <p class="p2">WBOX-48111</p>
-                        <ol>
+                        <p class="p1">WBOX-48111</p>
+                        <ol class="p2">
                             <li>搭載 Intel® 第 11 代 Core™ i3/i5 CPU</li>
                             <li>無風扇工控機</li>
                             <li>單側連接，方便佈線和維護</li>
@@ -175,20 +142,24 @@
                 </div>
             </div>
             <div class="content4">
-                <div class="ContactInfo">
-                    <div class="name">
-                        <img src="../Picture/Moximtech_Logo.png">
-                        <p>茂鑫智能科技股份有限公司</p>
-                    </div>
-                    <div class="data">
-                        <p class="title1">聯繫方式</p>
-                        <img src="../Picture/Address.png">
-                        <p class="title2" style="font-size: 17px;">&nbsp;&nbsp;242新北市新莊區五工五路27號6樓</p>
-                        <img src="../Picture/Phone.png">
-                        <p class="title2">&nbsp;&nbsp;02-7728-8128</p>
-                        <img src="../Picture/Mail.png">
-                        <a class="title2" href="mailto:vickychan@moximtech.com">&nbsp;&nbsp;vickychan@moximtech.com</a>
-                    </div>
+                <div class="word1">
+                    <img src="../Picture/Moximtech_Logo.png">
+                    <p class="p1">茂鑫智能科技股份有限公司</p>
+                </div>
+                <div class="word2">
+                    <p class="p1">聯繫方式</p>
+                    <img src="../Picture/Address.png">
+                    <ol class="p2">
+                        <p>242新北市新莊區五工五路27號6樓</p>
+                    </ol>
+                    <img src="../Picture/Phone.png">
+                    <ol class="p2">
+                        <p>02-7728-8128</p>
+                    </ol>
+                    <img src="../Picture/Mail.png">
+                    <ol class="p2">
+                        <a href="mailto:vickychan@moximtech.com">vickychan@moximtech.com</a>
+                    </ol>
                 </div>
             </div>
         </div>
